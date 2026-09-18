@@ -99,7 +99,17 @@ textarea { min-height: 90px; resize: vertical; }
 .segmented button.active { background: white; box-shadow: 0 2px 8px rgba(17,24,39,.07); }
 @media (max-width: 520px) {
   .grid-2 { grid-template-columns: 1fr; }
-  .set-table th:nth-child(5), .set-table td:nth-child(5) { display: none; }
+  /* Mantener visible el registro de descanso por serie. Solo se eliminó el temporizador. */
+  .set-table { table-layout: fixed; }
+  .set-table th, .set-table td { padding-left: 2px; padding-right: 2px; }
+  .set-table th:first-child, .set-table td:first-child { width: 28px; }
+  .set-table th:nth-child(2), .set-table td:nth-child(2) { width: 68px; }
+  .set-table th:nth-child(3), .set-table td:nth-child(3) { width: 54px; }
+  .set-table th:nth-child(4), .set-table td:nth-child(4) { width: 50px; }
+  .set-table th:nth-child(5), .set-table td:nth-child(5) { width: 62px; display: table-cell; }
+  .set-table th:nth-child(6), .set-table td:nth-child(6) { width: 36px; }
+  .set-input { min-width: 0; padding: 9px 3px; font-size: 14px; }
+  .check-set { width: 30px; height: 32px; }
   .exercise-header { align-items: center; }
 }
 

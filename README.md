@@ -1,4 +1,4 @@
-# Hybrid Training Log — MVP v0.2.2
+# Hybrid Training Log — MVP v0.2.3
 
 Aplicación web local para registrar fuerza/hipertrofia, sueño y peso corporal con reglas de progresión conservadoras.
 
@@ -12,6 +12,7 @@ Aplicación web local para registrar fuerza/hipertrofia, sueño y peso corporal 
 - Rutinas iniciales: Torso Front, Torso Muscle-up, Brazos y Pierna.
 - Front colocado al inicio de Torso Front y dominadas lastradas incluidas.
 - Registro rápido de series, peso, repeticiones, RIR y descanso opcional.
+- Registro de descanso por serie visible también en móvil; sin temporizador integrado.
 - Botones `+ serie` y `− serie`.
 - Sin temporizador de descanso integrado: se deja al reloj del usuario.
 - Copia de series anteriores.

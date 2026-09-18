@@ -2,7 +2,7 @@
   'use strict';
 
   const STORAGE_KEY = 'hybridTrainingApp.v1';
-  const APP_VERSION = '0.2.2';
+  const APP_VERSION = '0.2.3';
 
   const uid = (prefix='id') => `${prefix}_${Date.now().toString(36)}_${Math.random().toString(36).slice(2,8)}`;
   const nowISO = () => new Date().toISOString();
